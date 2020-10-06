@@ -5,7 +5,7 @@ on:
 
 jobs:
         audit:
-                name: Security Audit
+                name: Security Audit Check
                 runs-on: ubuntu-latest
                 steps:
                         - name: Checkout
