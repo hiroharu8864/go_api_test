@@ -1,5 +1,5 @@
 name: Security Audit
-on:
+on: push
         schedule:
                 - cron: '0 0 * * *'
 
