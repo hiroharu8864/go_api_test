@@ -1,7 +1,8 @@
 name: Security Audit
-on: 
+on: push 
         schedule:
                 - cron: '0 0 * * *'
+
 jobs:
         audit:
                 name: Security Audit
