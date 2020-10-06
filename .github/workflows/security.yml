@@ -1,14 +1,14 @@
 name: Security Audit
 on: push
 
-schedule:
-        - cron: '0 0 * * *'
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
-        audit:
-                name: Security Audit Check
-                runs-on: ubuntu-latest
-                steps:
+  audit:
+    name: Security Audit Check
+    runs-on: ubuntu-latest
+    steps:
                         - name: Checkout
                           uses: actions/checkout@v2.0.0
                         - name: Set Node.js 12.x
